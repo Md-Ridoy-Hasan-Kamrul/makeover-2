@@ -6,7 +6,7 @@ import {
   Link,
   useNavigate,
 } from 'react-router-dom';
-import { Palette, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
@@ -28,12 +28,13 @@ function Navigation() {
   return (
     <nav className='bg-white shadow-md fixed w-full z-50'>
       <div className='max-w-6xl mx-auto px-4'>
-        <div className='flex justify-between items-center h-16'>
+        <div className='flex justify-between items-center h-auto'>
           <Link to='/' className='flex items-center space-x-2'>
-            <Palette className='h-8 w-8 text-pink-500' />
-            <span className='text-xl font-bold text-gray-800'>
-              Bella Beauty
-            </span>
+            <img
+              src='/src/images/LOGO.png' // <-- replace with your logo path
+              alt='Bella Beauty Logo'
+              className='h-20 w-auto' // <-- controls logo height
+            />
           </Link>
 
           {/* Desktop Menu */}

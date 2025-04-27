@@ -1,8 +1,15 @@
-import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const FooterImage = () => (
   <div className='flex flex-col items-center'>
-    <img src='/images/9.png' alt='Footer Logo' className='h-48 mb-4' />
+    <Link to='/'>
+      <img
+        src='/src/images/FOOTER.png'
+        alt='Footer Logo'
+        className='h-48 mb-4 hover:opacity-80 transition duration-300'
+      />
+    </Link>
   </div>
 );
 
@@ -27,6 +34,7 @@ const SocialLinks = () => (
       <a
         href='https://www.instagram.com/myshas_makeover'
         className='hover:text-[#e34281] transition-colors'
+        target='_blank'
         aria-label='Instagram'
       >
         <FaInstagram size={22} />
@@ -34,16 +42,18 @@ const SocialLinks = () => (
       <a
         href='https://www.facebook.com/myshasmakeover'
         className='hover:text-[#e34281] transition-colors'
+        target='_blank'
         aria-label='Facebook'
       >
         <FaFacebookF size={22} />
       </a>
       <a
-        href='#'
+        href='https://www.tiktok.com/@myshasmakeover'
         className='hover:text-[#e34281] transition-colors'
+        target='_blank'
         aria-label='Twitter'
       >
-        <FaTwitter size={22} />
+        <FaTiktok size={22} />
       </a>
     </div>
   </div>

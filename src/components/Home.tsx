@@ -14,11 +14,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-const heroImages = [
-  'https://images.pexels.com/photos/457701/pexels-photo-457701.jpeg',
-  'https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg',
-  'https://images.pexels.com/photos/2814808/pexels-photo-2814808.jpeg',
-];
+const heroImages = ['/src/images/2.jpg'];
 
 const testimonials = [
   {
@@ -75,7 +71,7 @@ export default function Home() {
         <div className='absolute inset-0 z-10 flex items-center justify-center'>
           <div className='text-center text-white px-4'>
             <h1 className='text-5xl md:text-7xl font-bold mb-6'>
-              Bella Beauty
+              Mysha's Makeover
             </h1>
             <p className='text-xl md:text-2xl mb-8'>
               Transform Your Look, Enhance Your Beauty
