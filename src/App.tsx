@@ -31,8 +31,8 @@ function Navigation() {
         <div className='flex justify-between items-center h-auto'>
           <Link to='/' className='flex items-center space-x-2'>
             <img
-              src='/LOGO.png' // <-- replace with your logo path
-              alt='Bella Beauty Logo'
+              src='./images/LOGO.png' // <-- replace with your logo path
+              alt='Myshas Makeover'
               className='h-20 w-auto' // <-- controls logo height
             />
           </Link>

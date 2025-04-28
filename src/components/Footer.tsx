@@ -5,7 +5,7 @@ const FooterImage = () => (
   <div className='flex flex-col items-center'>
     <Link to='/'>
       <img
-        src='/FOOTER.png'
+        src='../images/FOOTER.png'
         alt='Footer Logo'
         className='h-48 mb-4 hover:opacity-80 transition duration-300'
       />
