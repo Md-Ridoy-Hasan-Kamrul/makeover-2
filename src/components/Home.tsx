@@ -70,9 +70,7 @@ export default function Home() {
 
         <div className='absolute inset-0 z-10 flex items-center justify-center'>
           <div className='text-center text-white px-4'>
-            <h1 className='text-5xl md:text-7xl font-bold mb-6'>
-              Mysha's Makeover
-            </h1>
+            <h1 className='text-5xl md:text-7xl font-bold mb-6'>Mysha's</h1>
             <p className='text-xl md:text-2xl mb-8'>
               Transform Your Look, Enhance Your Beauty
             </p>
